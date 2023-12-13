@@ -1,4 +1,6 @@
-import person from "/src/Assets/Icons/people-icon.jpg";
+import person from "/src/Assets/Images/lenever.jpg";
+import icon from "/src/Assets/Images/Yuewu.jpg";
+import icon2 from "/src/Assets/Images/ubong.jpg";
 import email from "/src/Assets/Icons/email.png";
 import whatsapp from "/src/Assets/Icons/whatsapp.png";
 import twitter from "/src/Assets/Icons/twitterIcon.png"
@@ -8,14 +10,13 @@ import Advice from "/src/Assets/Images/AdviceApp.png";
 import countries from "/src/Assets/Images/Rest-Countries.png";
 import Hackathon from "/src/Assets/Images/Hackathon.png";
 import RisePath from "/src/Assets/Images/RisePath.png";
-// import finsweet from "/src/Assets/Images/finsweet.png";
 import work from "/src/Assets/Images/work-image.png";
 
 
 export const data = [
     { id: 1, image: person, text: "'' Barisanem's commitment to work is excellent and inspiring. He exhibits a growth mindset and improves on his skill set continuously. He is a highly skilled front-end developer who consistently delivers high-quality work,possesses the technical expertise, problem-solving abilities and collaborative spirit that makes him a  highly valuable asset to any Team. ''", name: "Ikechukwu Onuorah", Role: "iOS Engineer | SwifUI | UIKit | Flutter", },
-    { id: 1, image: person, text: "'' Barisanem is passionate about his work as a frontend developer. His detail-oriented design work,enthusiasm and consistent work ethic is of great value to the workplace and to clients. He also takes initiative in sharing knowledge and best practices, which has contributed to the growth and skill development of the entire team. ''", name: "Yuewu Zhou", Role: "Developer I at InductiveHealth Informatics" },
-    { id: 1, image: person, text: "'' Barisanem is a dedicated frontend developer and has made impressive strides in JavaScript and React, tackling various projects that reflect his growing skills and passion for the field. He is a fast learner, a creative problem solver, and a team player. I have full confidence in his potential to contribute to, and create value for, any frontend development team. ''", name: "Ubong George", Role: "Frontend Engineer, Innoloft GmBH", },
+    { id: 1, image: icon, text: "'' Barisanem is passionate about his work as a frontend developer. His detail-oriented design work,enthusiasm and consistent work ethic is of great value to the workplace and to clients. He also takes initiative in sharing knowledge and best practices, which has contributed to the growth and skill development of the entire team. ''", name: "Yuewu Zhou", Role: "Developer at InductiveHealth Informatics" },
+    { id: 1, image: icon2, text: "'' Barisanem is a dedicated frontend developer and has made impressive strides in JavaScript and React, tackling various projects that reflect his growing skills and passion for the field. He is a fast learner, a creative problem solver, and a team player. I have full confidence in his potential to contribute to, and create value for, any frontend development team. ''", name: "Ubong George", Role: "Frontend Engineer, Innoloft GmBH", },
 
 
 ];
