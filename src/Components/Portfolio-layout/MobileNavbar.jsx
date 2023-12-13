@@ -9,7 +9,7 @@ const MobileNavbar = ({ SetIsOpen }) => {
         <aside >
             <div className="flex p-2">
                 <h1 className="icon-tabbs"><GiBee /></h1>
-                <button onClick={() => SetIsOpen(false)} className="icons-tabbs2"><AiFillCloseCircle /></button>
+                <button onClick={() => SetIsOpen(false)} className=""><AiFillCloseCircle /></button>
             </div>
 
             <ul className="p-4">
