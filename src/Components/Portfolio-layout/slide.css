@@ -1,0 +1,12 @@
+.unique .swiper-slide {
+  width: 440px !important;
+  padding: 2px;
+  margin: 0px 10px;
+  height: 420px !important;
+}
+
+.unique {
+  /* padding: 2rem 0; */
+
+  height: 600px;
+}

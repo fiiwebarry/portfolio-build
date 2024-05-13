@@ -1,8 +1,0 @@
-// Qualaroo for cover-letter-now.com
-// (C) 2022 Qualaroo. All rights reserved.
-// qualaroo.com
-
-//$ site: 56889, generated: 2022-08-02 17:53:27 UTC
-//$ client: 2.0.69
-
-!function(){var e=document,t=e.getElementsByTagName("script")[0],r=e.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cl.qualaroo.com/ki.js/59641/dUVqoo.js",t.parentNode.insertBefore(r,t)}();

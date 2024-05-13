@@ -1,5 +1,5 @@
 import { data } from "/src/Components/Portfolio-layout/DataPage";
-import {useEffect} from "react"
+import { useEffect } from "react"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS CSS file
 
@@ -7,21 +7,23 @@ import 'aos/dist/aos.css'; // Import the AOS CSS file
 
 
 
-const testimonial = () => {
+const Testimonial = () => {
+
   useEffect(() => {
     AOS.init();
-}, []);
+  }, []);
+
   return (
-    <div id="testimonial" className="">
+    <div id="testimonial" className=" overflow-x-clip">
       <div className="container mx-auto w-[85%] lg:pt-[90px] lg:pb-[70px] pt-[30px] pb-[40px]">
 
-      <div className=" gap-2 rounded-md w-[170px] h-[70px]  p-2 flex mx-auto justify-center pt-[5px] bg-[#F9FAFB]  border border-[#F9FAFB] shadow-2xl">
-                    <button className="lg:text-[25px] font-lobster font-bold"> Testimonials </button>
-                    
+        <div className=" gap-2 rounded-md w-[170px] h-[70px]  p-2 flex mx-auto justify-center pt-[5px] bg-[#F9FAFB]  border border-[#F9FAFB] shadow-2xl">
+          <button className="lg:text-[25px] font-lobster font-bold"> Testimonials </button>
 
-                </div>
 
-       
+        </div>
+
+
 
         <div className="">
           <p className="flex justify-center mx-auto lg:text-[20px]  text-[15px] font-semibold font-open-sans mt-6">Nice things people have said about me:</p>
@@ -63,4 +65,4 @@ const testimonial = () => {
   );
 };
 
-export default testimonial;
+export default Testimonial;
