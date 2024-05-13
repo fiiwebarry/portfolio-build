@@ -25,13 +25,11 @@ const Batch = () => {
                 <button className="lg:text-[25px] font-lobster font-bold mt-4"> My Skill Set  </button>
                 <span className="mt-4 "><BsRobot className="text-[32px]" /></span>
             </div>
-
             <div className=" mt-[30px] lg:mt-[60px]  justify-center mx-auto  lg:flex lg:gap-[90px] gap-[16px] md:gap-[60px] md:flex flex lg:flex-row  md:flex-row flex-wrap lg:w-[100%] md:w-1/2 w-1/2" >
                 <div className="flex-column">
                     <div>
                         <img src={icon} alt="" data-aos="zoom-in-up" />
                     </div>
-
                     <div className="flex justify-center font-open-sans font-semibold  text-[16px] lg:text-[20px]"><h3>React</h3></div>
                 </div>
                 <div>
@@ -41,7 +39,6 @@ const Batch = () => {
                     <div className="flex justify-center font-open-sans font-semibold  text-[16px] lg:text-[20px]">
                         <h3>Javascript</h3>
                     </div>
-
                 </div>
                 <div className="flex-column">
                     <div>
@@ -50,7 +47,6 @@ const Batch = () => {
                     <div className="flex justify-center font-open-sans font-semibold  text-[16px] lg:text-[20px]">
                         <h3>CSS</h3>
                     </div>
-
                 </div>
                 <div>
                     <img src={icon10} alt="" data-aos="zoom-in-up" />
@@ -85,14 +81,8 @@ const Batch = () => {
                     <img src={icon9} alt="" data-aos="zoom-in-up" />
                     <h3 className="flex justify-center font-open-sans font-semibold text-[16px] lg:text-[20px]">HTML</h3>
                 </div>
-
-
-
             </div>
-
         </div>
-
-
     )
 }
 export default Batch;
