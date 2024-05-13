@@ -92,10 +92,8 @@ const Projects = () => {
             }}
             modules={[EffectCoverflow, Pagination, Navigation]}
             className="unique">
-
             <div className="lg:flex  lg:mt-[60px] md:mt-[20px]  mt-8 lg:flex-row md:flex md:flex-row  md:flex-wrap flex flex-col lg:gap-[370px] md:gap-[10px] gap-8">
               {projectData2.map((project) => {
-
                 const { id, image, githubUrl, siteUrl, content } = project;
                 return (
                   <SwiperSlide >
@@ -123,9 +121,9 @@ const Projects = () => {
               })}
             </div>
           </Swiper>
-</div>
-</div>
-</div >
+        </div>
+      </div>
+    </div >
   );
 };
 
