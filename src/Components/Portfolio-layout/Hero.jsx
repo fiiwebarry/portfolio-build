@@ -10,13 +10,9 @@ import { useContext, useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS CSS file
 
-// import { ThemeContext } from "../ThemeContext";
-
-
 
 const Hero = () => {
 
-    //  const { isDarkMode } = useContext(ThemeContext);
     useEffect(() => {
         AOS.init();
     }, []);

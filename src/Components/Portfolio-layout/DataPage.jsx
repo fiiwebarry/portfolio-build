@@ -10,7 +10,9 @@ import Advice from "/src/Assets/images/Adviceapp.png";
 import countries from "/src/Assets/images/Rest-Countries.png";
 import Hackathon from "/src/Assets/images/Hackathon.png";
 import RisePath from "/src/Assets/images/RisePath.png";
-// import work from "/src/Assets/Images/work-image.png";
+import newshub from "/src/Assets/images/newshub.png"
+import mall from "/src/Assets/images/mall.png"
+import kodehauz from "/src/Assets/images/landing-page.png"
 
 
 export const data = [
@@ -34,11 +36,13 @@ export const projectData = [
     { id: 1, image: countries, githubUrl: "https://github.com/fiiwebarry/Rest-countries", siteUrl: "https://fiiwebarry.github.io/Rest-countries/", content: "REST Countries API  used to create an interactive web application that provides detailed information about countries around the world. Users will be able to search for countries, view essential data such as population, languages, and currencies, as well as view their location on an interactive map." },
     { id: 2, image: splitter, githubUrl: "https://github.com/fiiwebarry/TIP-CALCULATOR", siteUrl: "https://fiiwebarry.github.io/TIP-CALCULATOR/", content: "Splitter is a user-friendly and intuitive mobile application designed to simplify the process of calculating tips and splitting bills. Whether you're dining out with friends, enjoying a night out,or simply grabbing a coffee to-go, Splitter ensures you can quickly and accurately determine the appropriate tip amount." },
     { id: 3, image: taskmanager, githubUrl: "https://github.com/fiiwebarry/task-managment-app", siteUrl: "https://fiiwebarry.github.io/task-managment-app/", content: "Task Management App is a sleek and intuitive mobile application designed to help users organize their daily tasks and manage their time effectively. With its user-friendly interface and powerful features, Task Management App ensures you stay on top of your to-do list and accomplish your goals." },
-
+    { id: 4, image: Advice, githubUrl: "https://github.com/fiiwebarry/Advice-Generator-App", siteUrl: "https://fiiwebarry.github.io/Advice-Generator-App/", content: "Advice-app is a unique mobile application that combines the power of AI-driven advice with a comprehensive API, offering users personalized guidance and information on a wide range of topics. Whether you need life advice, professional insights, or quick tips on a hobby, the Advice-app has you covered." },
+    { id: 5, image: newshub, githubUrl: "https://github.com/fiiwebarry/news-aggregator-component", siteUrl: "https://news-aggregator-hub.netlify.app", content: "News Aggregator is a comprehensive application, designed to simplify the process of consuming news content from diverse sources. Leveraging the power of technology, the app collects, curates, and presents news articles. I utilized free APIs for sourcing the content, ensuring a wide range of news coverage." },
+    { id: 6, image: mall, githubUrl: "https://github.com/fiiwebarry/kodecamp-ecommerce", siteUrl: "https://shoppingmall-redux.netlify.app", content: "I built GrittyBee Shopping Mall, an online e-commerce site powered by Redux Toolkit. The platform offers a user-friendly shopping experience. With Redux Toolkit's robust state management capabilities, GrittyBee Shopping Mall ensures smooth performance and scalability, enhancing the overall shopping experience for users." },
 
 ];
 export const projectData2 = [
-    { id: 1, image: Advice, githubUrl: "https://github.com/fiiwebarry/Advice-Generator-App", siteUrl: "https://fiiwebarry.github.io/Advice-Generator-App/", content: "Advice-app is a unique mobile application that combines the power of AI-driven advice with a comprehensive API, offering users personalized guidance and information on a wide range of topics. Whether you need life advice, professional insights, or quick tips on a hobby, the Advice-app has you covered." },
+    { id: 1, image: kodehauz, githubUrl: "https://github.com/fiiwebarry", siteUrl: "https://kodehauz.onrender.com/", content: "As part of a collaborative effort, I contributed to the development of the Kodehauz website using React.js. Employing a modular approach. I implemented componentization techniques to enhance code organization and maintainability. I worked on test coverage, utilizing Cypress, Vite, and Jest." },
     { id: 2, image: Hackathon, githubUrl: "https://github.com/fiiwebarry/Getlinked-Hackathon-Challenge", siteUrl: "", content: "The coding challenge, titled 'GetLinked', was an excellent opportunity for me to demonstrate my technical skills and problem-solving abilities. It allowed me to showcase my proficiency in React.js and my ability to design efficient solutions. During the implementation phase, I focused on writing clean, maintainable code." },
     { id: 3, image: RisePath, githubUrl: "https://github.com/GrittyBee-Tech/Rise-Path", content: "The RisePath serves as a game-changer in the realm of HR education by providing a centralized platform that addresses the unique learning needs of professionals in the field. With its curated content, personalized approach, interactive features, and collaborative community.", siteUrl: "https://mellow-longma-801e80.netlify.app", },
 
