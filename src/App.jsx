@@ -23,7 +23,6 @@ function App() {
 
   return (
     <>
-
       <Navbar />
       <Hero />
       <About />
@@ -32,13 +31,6 @@ function App() {
       <Testimonial />
       <Contact />
       <Footer />
-
-
-
-
-
-
-
     </>
   )
 }
