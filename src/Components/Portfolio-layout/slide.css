@@ -1,12 +1,26 @@
 .unique .swiper-slide {
-  width: 440px !important;
+  width: 425px !important;
   padding: 2px;
   margin: 0px 10px;
-  height: 420px !important;
+  height: 410px !important;
 }
 
 .unique {
   /* padding: 2rem 0; */
 
-  height: 600px;
+  height: 700px;
+}
+/* .unigue .swiper-pagination {
+  margin-top: 500px !important;
+  display: flex;
+  justify-items: center;
+} */
+
+@media (max-width: 500px) {
+  .unique .swiper-slide {
+    width: 100% !important;
+    padding: 2px;
+    margin: 0px 10px;
+    height: 410px !important;
+  }
 }

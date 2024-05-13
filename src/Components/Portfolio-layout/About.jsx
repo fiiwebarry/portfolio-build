@@ -9,7 +9,6 @@ import 'aos/dist/aos.css'; // Import the AOS CSS file
 
 
 const About = () => {
-
     useEffect(() => {
         AOS.init();
     }, []);
@@ -17,21 +16,21 @@ const About = () => {
     return (
         <div id="About" className="bg-[#F9F9F9] overflow-x-clip">
             <div className="container mx-auto w-[85%] pt-[40px] pb-[70px]">
-                <div className=" gap-2 rounded-md w-[170px] h-[70px]  p-2 flex mx-auto justify-center pt-[5px] bg-[#F9FAFB]  border border-[#F9FAFB] shadow-2xl">
+                <div className=" gap-2 rounded-md w-[170px] lg:h-[70px]  p-2 flex mx-auto justify-center pt-[5px] bg-[#F9FAFB]  border border-[#F9FAFB] shadow-2xl">
                     <button className="lg:text-[25px] font-lobster font-bold"> About me </button>
                     <span className="mt-4 "><GiBookmarklet className="text-[32px]" /></span>
                 </div>
-                <div className="lg:flex lg:flex-row md:flex-col  md:flex flex-col lg:gap-[200px] mt-[60px]">
-                    <div className="relative">
+                <div className="lg:flex lg:flex-row md:flex-col lg:justify-between lg:gap-[60px]  md:flex flex-col  mt-[60px]">
+                    <div className="relative lg:w-[600px]">
                         <div className="" data-aos="flip-right" >
-                            <img className=" md:flex md:justify-center  md:mx-auto lg:w-[850px] w-[850px] md:w-[400px]" src={Img} alt="" />
+                            <img className=" md:flex md:justify-center  md:mx-auto lg:w-[550px] w-[850px] md:w-[400px]" src={Img} alt="" />
                         </div>
                         <div className="absolute top-0 left-[50px] lg:flex md:flex hidden">
                             <img className="shade-img" src={img2} alt="" />
                         </div>
                     </div>
-                    <div className="">
-                        <p className=" lg:mt-0 md:mt-6 mt-3 text-[#111827] lg:text-[20px]  text-[18px] font-normal text-justify font-garamond  lg:w-[800px] md:w-[600px]" data-aos="fade-left">
+                    <div className="lg:w-[700px]">
+                        <p className=" lg:mt-0 md:mt-6 mt-3 text-[#111827] lg:text-[20px]  text-[18px] font-normal text-justify font-garamond  lg:w-[710px] md:w-[600px]" data-aos="fade-left">
                             My journey into the world of web development began with an insatiable curiosity for technology and a desire to create things that impact people's lives positively.
                             I'm fascinated by the ever-evolving landscape of web technologies,
                             and I embrace the challenge of staying up-to-date with the latest trends and best practices.
@@ -40,7 +39,7 @@ const About = () => {
                         <div className="flex gap-2 mt-2">
                             <img className="w-[25px] h-[25px]" src={star} alt="" data-aos="fade-left" />
                             <span className="lg:hidden md:hidden flex text-[orange] text-[20px] font-Roboto-Serif font-semibold" data-aos="fade-left">User-Centric Approach:</span>
-                            <div className="lg:flex md:flex hidden" data-aos="fade-right"><p className="  text-[#111827] lg:text-[20px] text-[18px] font-normal text-justify font-garamond  md:w-[600px] lg:w-[800px]"><span className="text-[orange] text-[20px] font-Roboto-Serif font-semibold">User-Centric Approach:</span><br /> I believe in putting the user at the center of every project.
+                            <div className="lg:flex md:flex hidden" data-aos="fade-right"><p className="  text-[#111827] lg:text-[20px] text-[18px] font-normal text-justify font-garamond  md:w-[600px] lg:w-[650px]"><span className="text-[orange] text-[20px] font-Roboto-Serif font-semibold">User-Centric Approach:</span><br /> I believe in putting the user at the center of every project.
                                 Understanding their needs and behaviors is key to crafting intuitive and delightful user experiences.</p></div>
                         </div>
                         <p className="lg:hidden md:hidden flex ml-[10px] text-[#111827] lg:text-[20px] text-[18px] font-normal text-justify font-garamond lg:w-[800px] md:w-[600px]" data-aos="fade-left">I believe in putting the user at the center of every project.

@@ -5,6 +5,7 @@ import { projectData2 } from "/src/Components/Portfolio-layout/DataPage";
 import { GiLaptop } from 'react-icons/gi';
 import { TbSitemap } from "react-icons/tb";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import slider from "/src/Assets/images/slider.png"
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -30,8 +31,8 @@ const Projects = () => {
           <button className="lg:text-[25px] font-lobster font-bold mt-4"> Projects </button>
           <span className="mt-4 "><GiLaptop className="text-[32px]" /></span>
         </div>
-        <p className="flex justify-center mx-auto lg:text-[24px] font-open-sans font-semibold mt-[20px]">Some of the noteworthy projects i have built</p>
-        <div className="lg:mt-[40px] md:mt-[40px]">
+        <p className="flex justify-center  mx-auto lg:text-left text-center text-[20px] lg:text-[24px] font-open-sans font-semibold mt-[20px]">Some of the noteworthy projects i have built</p>
+        <div className="lg:mt-[40px] md:mt-[40px] mt-5">
           <p className='font-bold flex lg:justify-normal justify-center text-[18px] font-georgia  lg:text-[20px] '>MINI-PROJECTS</p>
           <Swiper
             grabCursor={true}
@@ -49,7 +50,6 @@ const Projects = () => {
           >
             <div className="lg:flex lg:flex-row md:flex md:flex-row  gap-8  flex flex-col lg:flex-nowrap  md:flex-wrap lg:gap-[80px] md:gap-[10px]">
               {projectData.map((project) => {
-
                 const { id, image, githubUrl, siteUrl, content } = project;
                 return (
                   <SwiperSlide>
@@ -78,7 +78,11 @@ const Projects = () => {
             </div>
           </Swiper>
 
-          <p className='font-bold lg:mt-[160px] flex lg:justify-normal justify-center text-[18px] font-georgia  lg:text-[20px] '> KEY-PROJECTS</p>
+          <div className=' flex justify-center lg:mt-[-30px] mt-[-120px]  mx-auto swiper-pagination'>
+            <img src={slider} alt="slider" />
+          </div>
+
+          <p className='font-bold lg:mt-[30px] mt-5 flex lg:justify-normal justify-center text-[18px] font-georgia  lg:text-[20px] '> KEY-PROJECTS</p>
           <Swiper
             grabCursor={true}
             centeredSlides={true}
@@ -97,7 +101,7 @@ const Projects = () => {
                 const { id, image, githubUrl, siteUrl, content } = project;
                 return (
                   <SwiperSlide >
-                    <div key={id} className="lg:mt-[40px] mt-4">
+                    <div key={id} className="lg:mt-[40px] mt-2">
                       <img className="rounded shadow-lg md:w-[700px]" src={image} alt="" data-aos="zoom-in" />
                       <div className="bg-[#ffff]">
                         <p className="p-3 lg:w-[430px] font-garamond lg:text-[18px]">
@@ -121,6 +125,9 @@ const Projects = () => {
               })}
             </div>
           </Swiper>
+          <div className=' flex justify-center lg:mt-[-30px] mt-[-190px]  mx-auto swiper-pagination'>
+            <img src={slider} alt="slider" />
+          </div>
         </div>
       </div>
     </div >
