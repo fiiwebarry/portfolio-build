@@ -21,7 +21,7 @@ const Navbar = () => {
                 <div className=" ">
                     <div className="flex  lg:justify-between md:gap-[140px]">
                         <div className="flex mt-2">
-                            <h1 className="font-lobster  lg:text-[40px] text-[30px] text-[40px] ">FIIWE</h1>
+                            <h1 className="font-lobster  lg:text-[40px] text-[30px]">FIIWE</h1>
                             <span className="ml-[10px] text-[40px] text-[#000]"><GiBee /></span>
 
                         </div>
@@ -41,29 +41,9 @@ const Navbar = () => {
                                 <button className="" onClick={ToggleHamburger}><GiHamburgerMenu className="text-[30px]" /></button>
 
                             </div>
-
-                            {/* <div className="">
-                                 (<button onClick="" ><img className="w-[25px] h-[25px]" src={moon} />
-                                </button>) : (<button onClick="" ><img className="w-[25px] h-[25px]" src={sun} /></button>)
-
-
-
-                            </div> */}
-
-
-
                         </div>
                     </div>
-
-
-
-
-
-
-
-
                 </div>
-
             </nav>
             {isOpen && (
                 <div className="absolute-tab">
