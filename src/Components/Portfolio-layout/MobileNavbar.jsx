@@ -6,12 +6,17 @@ const MobileNavbar = ({ SetIsOpen }) => {
 
     return (
 
-        <aside >
-            <div className="flex p-2">
-                <h1 className="icon-tabbs"><GiBee /></h1>
-                <button onClick={() => SetIsOpen(false)} className=""><AiFillCloseCircle /></button>
+        <aside className='' >
+            <div className=" flex justify-between p-5">
+                <div className="flex mt-2 hover:text-Hover-tint ">
+                    <h1 className="font-georgia   text-[30px]">FIIWE</h1>
+                    <span className="ml-[10px] text-[30px] text-[#000]"><GiBee /></span>
+
+                </div>
+
+                <button className="text-[30px]" onClick={() => SetIsOpen(false)} ><AiFillCloseCircle /></button>
             </div>
-            <ul className="p-4">
+            <ul className=" flex flex-col mx-auto text-center justify-center p-4">
                 <li><a href="#About">About</a></li>
                 <li><a href="#project">Project</a></li>
                 <li><a href="#testimonial">Testimonial</a></li>

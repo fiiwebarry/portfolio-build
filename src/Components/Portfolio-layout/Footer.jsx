@@ -8,10 +8,6 @@ const Footer = () => {
 
     return (<section className="lg:pb-[30px] pb-[20px]">
         <div className="container mx-auto w-[85%]" >
-            <div className="flex mt-2">
-                <h1 className="font-lobster  lg:text-[40px] text-[20px] ">FIIWE</h1>
-                <span className="ml-[10px] text-[20px] text-[#000]"><GiBee /></span>
-            </div>
             <div className="flex justify-center">
                 <div className="nav-deal">
                     <div className="drop-down">

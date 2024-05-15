@@ -14,11 +14,11 @@ const Testimonial = () => {
   return (
     <div id="testimonial" className=" overflow-x-clip">
       <div className="container mx-auto w-[85%] lg:pt-[90px] lg:pb-[70px] pt-[30px] pb-[40px]">
-        <div className=" gap-2 rounded-md w-[170px] h-[70px]  p-2 flex mx-auto justify-center pt-[5px] bg-[#F9FAFB]  border border-[#F9FAFB] shadow-2xl">
-          <button className="lg:text-[25px] font-lobster font-bold"> Testimonials </button>
+        <div className=" gap-2   hover:bg-Hover-tint hover:text-white items-center rounded-md lg:w-[190px] w-[170px] h-[70px]  p-2 flex mx-auto justify-center pt-[5px] bg-[#F9FAFB]  border border-[#F9FAFB] shadow-2xl">
+          <button className="lg:text-[25px] font-georgia  font-bold"> Testimonials </button>
         </div>
         <div className="">
-          <p className="flex justify-center mx-auto lg:text-[20px]  text-[15px] font-semibold font-open-sans mt-6">Nice things people have said about me:</p>
+          <p className="flex justify-center mx-auto lg:text-[20px]  text-[15px] font-semibold font-georgia mt-6">Nice things people have said about me:</p>
         </div>
         <div className="lg:flex lg:flex-row md:flex md:flex-row flex flex-col gap-8 lg:justify-center lg:mt-[30px] mt-6">
           {data.map((info) => {
@@ -26,7 +26,7 @@ const Testimonial = () => {
             return (
               <>
                 <div className="testimony" key={id}>
-                  <div className="lg:w-[394px] lg:h-[439px] bg-[#F9FAFB] p-4 rounded-2xl shadow-lg" data-aos="flip-right">
+                  <div className="lg:w-[394px] lg:h-[479px]  hover:bg-Hover-tint hover:text-white bg-[#F9FAFB] p-4 rounded-2xl shadow-lg" data-aos="flip-right">
                     <img className="w-[100px] h-[100px] rounded-full flex justify-center mx-auto" src={image} alt="" />
                     <p className="font-normal font-garamond lg:text-[19px] text-[17px] mt-2">
                       {text}

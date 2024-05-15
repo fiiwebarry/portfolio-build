@@ -16,8 +16,8 @@ const About = () => {
     return (
         <div id="About" className="bg-[#F9F9F9] overflow-x-clip">
             <div className="container mx-auto w-[85%] pt-[40px] pb-[70px]">
-                <div className=" gap-2 rounded-md w-[170px] lg:h-[70px]  p-2 flex mx-auto justify-center pt-[5px] bg-[#F9FAFB]  border border-[#F9FAFB] shadow-2xl">
-                    <button className="lg:text-[25px] font-lobster font-bold"> About me </button>
+                <div className=" gap-2  hover:bg-Hover-tint hover:text-white rounded-md items-center lg:w-[190px] w-[170px] lg:h-[70px]  p-2 flex mx-auto justify-center pt-[5px] bg-[#F9FAFB]  border border-[#F9FAFB] shadow-2xl">
+                    <button className="lg:text-[25px] font-georgia font-bold"> About me </button>
                     <span className="mt-4 "><GiBookmarklet className="text-[32px]" /></span>
                 </div>
                 <div className="lg:flex lg:flex-row md:flex-col lg:justify-between lg:gap-[60px]  md:flex flex-col  mt-[60px]">
