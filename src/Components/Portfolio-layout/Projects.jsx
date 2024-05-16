@@ -121,7 +121,7 @@ const Projects = () => {
                         <p className="lg:p-2 p-2 font-garamond lg:text-[18px]">
                           {content}
                         </p>
-                        <div className="flex p-3 gap-4">
+                        <div className="flex p-2 gap-4">
                           <button onClick={() => clickHandler(githubUrl)} className=" flex font-open-sans gap-2 rounded font-semibold shadow-lg lg:p-4 bg-[#F9FAFB]  text-[15px] lg:text-[20px]">
                             <p>GitHub </p>
                             <span className="mt-1"><AiFillGithub /></span>

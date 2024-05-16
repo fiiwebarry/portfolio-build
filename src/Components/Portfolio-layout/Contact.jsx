@@ -1,5 +1,5 @@
-import { contactData } from "/src/Components/Portfolio-layout/DataPage";
-import icon from "/src/Assets/Icons/Arrow 1 (1).png";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 import { SiMailchimp } from "react-icons/si";
 import { useEffect, useState } from "react"
 import AOS from 'aos';
@@ -8,6 +8,18 @@ import 'aos/dist/aos.css'; // Import the AOS CSS file
 
 
 const Contact = () => {
+
+    const handleEmailClick = () => {
+        window.location.href = "mailto:fiiwebarry@yahoo.com";
+    };
+
+    const handleWhatsappClick = () => {
+        window.location.href = "https://wa.me/2348136719957";
+    };
+
+    const handleTwitterClick = () => {
+        window.open("https://twitter.com/FIIWEBARRY9", "_blank");
+    };
 
     const [formData, setFormData] = useState({
         username: "",
@@ -52,51 +64,56 @@ const Contact = () => {
         <section id="contact" className="bg-[#F9FAFB] overflow-x-clip">
             <div className="">
                 <div className="container mx-auto w-[85%] lg:pt-[40px] pt-[40px] lg:pb-[50px] pb-[30px] ">
-                    <div className=" gap-2 rounded-md lg:w-[220px]  items-center w-[170px] h-[70px]   p-2 flex mx-auto justify-center pt-[5px]  bg-[#F9FAFB]  border border-[#F9FAFB] shadow-2xl">
-                        <button className="lg:text-[25px] font-georgia font-bold"> Get in touch </button>
+                    <div className=" gap-2  hover:bg-Hover-tint hover:text-white rounded-md lg:w-[270px]  items-center w-[170px] h-[70px]   p-2 flex mx-auto justify-center pt-[5px]  bg-[#F9FAFB]  border border-[#F9FAFB] shadow-2xl">
+                        <button className="lg:text-[25px] font-georgia font-bold"> Connect Today!</button>
                         <span className=" "><SiMailchimp className="text-[32px]" /></span>
                     </div>
-                    <div className="lg:flex lg:flex-row md:flex-row  justify-center md:flex flex  flex-col lg:gap-[200px] md:gap-[100px] lg:mt-9">
+                    <div className="lg:flex  lg:flex-row md:flex-row  justify-center md:flex flex  flex-col lg:gap-[100px] md:gap-[100px] lg:mt-9">
                         <div className="mt-[20px]">
-                            <p className="lg:text-[20px] mb-2  text-[16px] font-semibold font-open-sans">Talk to me</p>
                             <div className=" flex flex-col gap-6 ">
-                                {contactData.map((contact) => {
-                                    const { id, image, title, detail } = contact;
-                                    return (
-                                        <div className="rounded-2xl   shadow-xl bg-[#ffff] lg:w-[397px] lg:h-[247px] p-5" key={id} data-aos="flip-right">
-                                            <div>
-                                                <img className="flex justify-center mx-auto" src={image} />
-                                                <p className="flex justify-center mx-auto font-semibold lg:text-[22px] mt-3 font-open-sans">{title}</p>
-                                            </div>
-                                            <p className="flex justify-center mx-auto font-semibold lg:text-[22px] mt-3 font-open-sans">{detail}</p>
+                                <div onClick={handleEmailClick} className="rounded-2xl p-[65px]  shadow-xl  hover:bg-Hover-tint hover:text-white bg-[#ffff] lg:w-[397px] lg:h-[247px] " data-aos="flip-right">
+                                    <div>
+                                        <span className="flex justify-center mx-auto text-[29px]"><FaEnvelope /></span>
+                                        <p className="flex justify-center mx-auto font-semibold lg:text-[22px] mt-3 font-georgia">Email</p>
+                                    </div>
+                                    <p className="flex justify-center mx-auto font-semibold lg:text-[22px] mt-3 font-georgia">fiiwebarry@yahoo.com</p>
+                                </div>
+                                <div onClick={handleWhatsappClick} className="rounded-2xl p-[65px]  shadow-xl  hover:bg-Hover-tint hover:text-white bg-[#ffff] lg:w-[397px] lg:h-[247px] " data-aos="flip-right">
+                                    <div>
+                                        <span className="flex justify-center mx-auto text-[29px]"><FaWhatsapp /> </span>
+                                        <p className="flex justify-center mx-auto font-semibold lg:text-[22px] mt-3 font-georgia">WhatsApp</p>
+                                    </div>
+                                    <p className="flex justify-center mx-auto font-semibold lg:text-[22px] mt-3 font-georgia">+2348136719957</p>
+                                </div>
+                                <div onClick={handleTwitterClick} className="rounded-2xl p-[65px]  shadow-xl  hover:bg-Hover-tint hover:text-white bg-[#ffff] lg:w-[397px] lg:h-[247px] " data-aos="flip-right">
+                                    <div>
+                                        <span className="flex justify-center mx-auto text-[29px]"> <FaSquareXTwitter /></span>
+                                        <p className="flex justify-center mx-auto font-semibold lg:text-[22px] mt-3 font-georgia">Twitter</p>
+                                    </div>
+                                    <p className="flex justify-center mx-auto font-semibold lg:text-[22px] mt-3 font-georgia">FIIWEBARRY9</p>
+                                </div>
 
-                                            <div className="flex  gap-5 justify-center mx-auto">
-                                                <p className=" font-normal lg:text-[22px] mt-3 font-open-sans">Write Me</p>
-                                                <img className="w-[25px] h-[25px] mt-4" src={icon} />
-                                            </div>
-                                        </div>
-                                    )
-                                })}
+
                             </div>
                         </div>
                         <form onSubmit={handleSubmitData}
                             className="mt-[14px]"
                         >
-                            <p className="font-semibold lg:text-[20px] font-open-sans">Write me a Mail</p>
-                            <label className="font-semibold lg:text-[22px] font-open-sans" htmlFor="name"> Name</label><br />
+
+                            <label className="font-semibold lg:text-[22px] font-georgia" htmlFor="name"> Name</label><br />
                             <input type="text"
-                                className=" font-semibold shadow-lg font-open-sans rounded-md p-2 lg:w-[350px] w-[320px] h-[50px]"
+                                className=" font-semibold border-gray-300 border  font-open-sans rounded-md p-2 lg:w-[350px] w-[320px] h-[50px]"
                                 name="username"
-                                placeholder="insert your Name"
+                                placeholder="Name"
                                 onChange={handleChange} />
                             <br />
                             {submitData && <span className="text-[red] font-bold">{submitData.username}</span>}
                             <br /><br />
-                            <label className="font-semibold lg:text-[22px] font-open-sans" htmlFor="">Mail</label><br />
-                            <input className="font-semibold shadow-lg font-open-sans rounded-md  p-2 lg:w-[350px] h-[50px] w-[320px]"
+                            <label className="font-semibold lg:text-[22px] font-georgia" htmlFor="">Email</label><br />
+                            <input className="font-semibold  border-gray-300 border  font-open-sans rounded-md  p-2 lg:w-[350px] h-[50px] w-[320px]"
                                 type="text"
                                 name="email"
-                                placeholder="insert your Mail"
+                                placeholder="Mail"
                                 onChange={handleChange}
 
                             />
@@ -108,7 +125,7 @@ const Contact = () => {
                             <textarea
                                 name="message"
                                 onChange={handleChange}
-                                className="font-semibold shadow-lg font-open-sans p-3 rounded-2xl lg:w-[350px] w-[320px] h-[250px] "
+                                className="font-semibold  border-gray-300 border  font-open-sans p-3 rounded-2xl lg:w-[350px] w-[320px] h-[250px] "
                                 placeholder="insert your Message" >
                             </textarea>
                             <br />
