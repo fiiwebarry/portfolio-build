@@ -63,29 +63,29 @@ const Contact = () => {
     return (
         <section id="contact" className="bg-[#F9FAFB] overflow-x-clip">
             <div className="">
-                <div className="container mx-auto w-[85%] lg:pt-[40px] pt-[40px] lg:pb-[50px] pb-[30px] ">
-                    <div className=" gap-2  hover:bg-Hover-tint hover:text-white rounded-md lg:w-[270px]  items-center w-[170px] h-[70px]   p-2 flex mx-auto justify-center pt-[5px]  bg-[#F9FAFB]  border border-[#F9FAFB] shadow-2xl">
-                        <button className="lg:text-[25px] font-georgia font-bold"> Connect Today!</button>
+                <div className=" mx-auto w-[85%] lg:pt-[40px] pt-[40px] lg:pb-[50px] pb-[30px] ">
+                    <div className=" gap-2  hover:bg-Hover-tint hover:text-white rounded-md lg:w-[270px]  items-center w-[190px] lg:h-[70px]   p-2 flex mx-auto justify-center pt-[5px]  bg-[#F9FAFB]  border border-[#F9FAFB] shadow-2xl">
+                        <button className="lg:text-[25px] lg:mt-0 mt-1 font-georgia font-bold"> Connect Today!</button>
                         <span className=" "><SiMailchimp className="text-[32px]" /></span>
                     </div>
-                    <div className="lg:flex  lg:flex-row md:flex-row  justify-center md:flex flex  flex-col lg:gap-[100px] md:gap-[100px] lg:mt-9">
-                        <div className="mt-[20px]">
+                    <div className="  container mx-auto lg:flex  lg:flex-row md:flex-row  justify-center md:flex flex  flex-col lg:gap-[100px] md:gap-[100px] lg:mt-9">
+                        <div className="mt-[20px] lg:w-[35%]">
                             <div className=" flex flex-col gap-6 ">
-                                <div onClick={handleEmailClick} className="rounded-2xl p-[65px]  shadow-xl  hover:bg-Hover-tint hover:text-white bg-[#ffff] lg:w-[397px] lg:h-[247px] " data-aos="flip-right">
+                                <div onClick={handleEmailClick} className="rounded-2xl p-[45px]  shadow-xl  hover:bg-Hover-tint hover:text-white bg-[#ffff] lg:w-[397px]  " data-aos="flip-right">
                                     <div>
                                         <span className="flex justify-center mx-auto text-[29px]"><FaEnvelope /></span>
                                         <p className="flex justify-center mx-auto font-semibold lg:text-[22px] mt-3 font-georgia">Email</p>
                                     </div>
                                     <p className="flex justify-center mx-auto font-semibold lg:text-[22px] mt-3 font-georgia">fiiwebarry@yahoo.com</p>
                                 </div>
-                                <div onClick={handleWhatsappClick} className="rounded-2xl p-[65px]  shadow-xl  hover:bg-Hover-tint hover:text-white bg-[#ffff] lg:w-[397px] lg:h-[247px] " data-aos="flip-right">
+                                <div onClick={handleWhatsappClick} className="rounded-2xl p-[45px]  shadow-xl  hover:bg-Hover-tint hover:text-white bg-[#ffff] lg:w-[397px]  " data-aos="flip-right">
                                     <div>
                                         <span className="flex justify-center mx-auto text-[29px]"><FaWhatsapp /> </span>
                                         <p className="flex justify-center mx-auto font-semibold lg:text-[22px] mt-3 font-georgia">WhatsApp</p>
                                     </div>
                                     <p className="flex justify-center mx-auto font-semibold lg:text-[22px] mt-3 font-georgia">+2348136719957</p>
                                 </div>
-                                <div onClick={handleTwitterClick} className="rounded-2xl p-[65px]  shadow-xl  hover:bg-Hover-tint hover:text-white bg-[#ffff] lg:w-[397px] lg:h-[247px] " data-aos="flip-right">
+                                <div onClick={handleTwitterClick} className="rounded-2xl p-[45px]  shadow-xl  hover:bg-Hover-tint hover:text-white bg-[#ffff] lg:w-[397px]  " data-aos="flip-right">
                                     <div>
                                         <span className="flex justify-center mx-auto text-[29px]"> <FaSquareXTwitter /></span>
                                         <p className="flex justify-center mx-auto font-semibold lg:text-[22px] mt-3 font-georgia">Twitter</p>
@@ -96,21 +96,22 @@ const Contact = () => {
 
                             </div>
                         </div>
-                        <form onSubmit={handleSubmitData}
-                            className="mt-[14px]"
+
+
+                        <form className=" lg:w-[60%] mt-[14px]" onSubmit={handleSubmitData}
                         >
 
                             <label className="font-semibold lg:text-[22px] font-georgia" htmlFor="name"> Name</label><br />
                             <input type="text"
-                                className=" font-semibold border-gray-300 border  font-open-sans rounded-md p-2 lg:w-[350px] w-[320px] h-[50px]"
+                                className=" font-semibold border-gray-300 border  font-open-sans rounded-md p-2 lg:w-[90%] w-[320px] h-[50px]"
                                 name="username"
                                 placeholder="Name"
                                 onChange={handleChange} />
                             <br />
                             {submitData && <span className="text-[red] font-bold">{submitData.username}</span>}
                             <br /><br />
-                            <label className="font-semibold lg:text-[22px] font-georgia" htmlFor="">Email</label><br />
-                            <input className="font-semibold  border-gray-300 border  font-open-sans rounded-md  p-2 lg:w-[350px] h-[50px] w-[320px]"
+                            <label className="font-semibold   lg:text-[22px] font-georgia" htmlFor="">Email</label><br />
+                            <input className="font-semibold  border-gray-300 border  font-open-sans rounded-md  p-2 lg:w-[90%] h-[50px] w-[320px]"
                                 type="text"
                                 name="email"
                                 placeholder="Mail"
@@ -125,7 +126,7 @@ const Contact = () => {
                             <textarea
                                 name="message"
                                 onChange={handleChange}
-                                className="font-semibold  border-gray-300 border  font-open-sans p-3 rounded-2xl lg:w-[350px] w-[320px] h-[250px] "
+                                className="font-semibold  border-gray-300 border  font-open-sans p-3 rounded-2xl lg:w-[90%] w-[320px] h-[250px] "
                                 placeholder="insert your Message" >
                             </textarea>
                             <br />
