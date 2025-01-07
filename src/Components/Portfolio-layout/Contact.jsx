@@ -96,8 +96,6 @@ const Contact = () => {
 
                             </div>
                         </div>
-
-
                         <form className=" lg:w-[60%] mt-[14px]" onSubmit={handleSubmitData}
                         >
 

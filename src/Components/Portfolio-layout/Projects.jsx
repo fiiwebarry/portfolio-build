@@ -62,7 +62,7 @@ const Projects = () => {
                           <img className="rounded   md:w-[700px]" src={image} alt="" />
                         </div>
                         <div className="">
-                          <p className="lg:p-2 p-2 font-garamond lg:text-[18px]">
+                          <p className="lg:p-2  p-2 font-garamond lg:text-[18px]">
                             {content}
                           </p>
                           <div className="flex p-2 gap-4">
@@ -118,7 +118,7 @@ const Projects = () => {
                         <img className="rounded   md:w-[700px]" src={image} alt="" />
                       </div>
                       <div className="">
-                        <p className="lg:p-2 p-2 font-garamond lg:text-[18px]">
+                        <p className="lg:p-2 p-2  font-garamond lg:text-[18px]">
                           {content}
                         </p>
                         <div className="flex p-2 gap-4">
