@@ -16,11 +16,6 @@ import Footer from "./Components/Portfolio-layout/Footer";
 
 function App() {
 
-
-
-
-
-
   return (
     <>
       <Navbar />

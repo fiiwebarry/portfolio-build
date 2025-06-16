@@ -1,7 +1,7 @@
 
 import { AiFillGithub } from 'react-icons/ai';
-import { projectData } from "/src/Components/Portfolio-layout/DataPage";
-import { projectData2 } from "/src/Components/Portfolio-layout/DataPage";
+import { projectData } from "/src/Components/Portfolio-layout/constant";
+import { projectData2 } from "/src/Components/Portfolio-layout/constant";
 import { GiLaptop } from 'react-icons/gi';
 import { TbSitemap } from "react-icons/tb";
 import { Swiper, SwiperSlide } from 'swiper/react';

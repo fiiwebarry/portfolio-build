@@ -8,6 +8,7 @@ import icon8 from "/src/Assets/Icons/bootstrap.svg";
 import icon9 from "/src/Assets/Icons/html5.png";
 import icon10 from "/src/Assets/Icons/Next.png";
 import icon11 from "/src/Assets/Icons/redux.png"
+import icon12 from '/src/Assets/Icons/typescript.svg';
 import { BsRobot } from "react-icons/bs";
 import { useEffect } from "react"
 import AOS from 'aos';
@@ -56,8 +57,8 @@ const Batch = () => {
                     <h3 className="flex justify-center font-open-sans font-semibold  text-[16px] lg:text-[20px]">Redux</h3>
                 </div>
                 <div>
-                    <img src={icon5} alt="" data-aos="zoom-in-up" />
-                    <h3 className="flex justify-center font-open-sans font-semibold text-[16px] lg:text-[20px]">Figma</h3>
+                    <img src={icon12} alt="" data-aos="zoom-in-up" />
+                    <h3 className="flex justify-center font-open-sans font-semibold text-[16px] lg:text-[20px]">Typescript</h3>
                 </div>
                 <div>
                     <img src={icon6} alt="" data-aos="zoom-in-up" />
@@ -75,6 +76,10 @@ const Batch = () => {
                 <div>
                     <img src={icon8} alt="" data-aos="zoom-in-up" />
                     <h3 className="flex justify-center font-open-sans font-semibold text-[16px] lg:text-[20px]">Bootstrap</h3>
+                </div>
+                <div>
+                    <img className="lg:w-[80px]" src={icon5} alt="" data-aos="zoom-in-up" />
+                    <h3 className="flex justify-center font-open-sans font-semibold  text-[16px] lg:text-[20px]">Figma</h3>
                 </div>
                 <div>
                     <img src={icon9} alt="" data-aos="zoom-in-up" />

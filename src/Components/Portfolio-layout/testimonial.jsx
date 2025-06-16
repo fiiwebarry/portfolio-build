@@ -1,7 +1,8 @@
-import { data } from "/src/Components/Portfolio-layout/DataPage";
+
 import { useEffect } from "react"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS CSS file
+import { data } from "./constant";
 
 
 
