@@ -9,6 +9,7 @@ import icon9 from "/src/Assets/Icons/html5.png";
 import icon10 from "/src/Assets/Icons/Next.png";
 import icon11 from "/src/Assets/Icons/redux.png"
 import icon12 from '/src/Assets/Icons/typescript.svg';
+import icon13 from "/src/Assets/Icons/react-native.png";
 import { BsRobot } from "react-icons/bs";
 import { useEffect } from "react"
 import AOS from 'aos';
@@ -57,6 +58,10 @@ const Batch = () => {
                     <h3 className="flex justify-center font-open-sans font-semibold  text-[16px] lg:text-[20px]">Redux</h3>
                 </div>
                 <div>
+                    <img className="mx-auto" src={icon13} width={80} alt="" data-aos="zoom-in-up" />
+                    <h3 className="flex justify-center font-open-sans font-semibold text-[16px] mx-auto lg:text-[20px]">React-Native</h3>
+                </div>
+                <div>
                     <img src={icon12} alt="" data-aos="zoom-in-up" />
                     <h3 className="flex justify-center font-open-sans font-semibold text-[16px] lg:text-[20px]">Typescript</h3>
                 </div>
@@ -85,7 +90,9 @@ const Batch = () => {
                     <img src={icon9} alt="" data-aos="zoom-in-up" />
                     <h3 className="flex justify-center font-open-sans font-semibold text-[16px] lg:text-[20px]">HTML</h3>
                 </div>
+
             </div>
+
         </div>
     )
 }

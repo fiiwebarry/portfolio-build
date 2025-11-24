@@ -28,7 +28,7 @@ const Hero = () => {
                         </div>
                         <div className="font-garamond lg:text-[23px] md:text-[18px] text-[20px]  lg:mt-0 mt-2 lg:w-[713px] md:w-[400px] lg:h-[132px] text-[#030712] font-normal">
                             <p className="lg:mt-4">
-                                I am a Frontend developer with a
+                                I am a Frontend Web and Mobile developer with a
                                 focus on creating and occasionally designing exceptional
                                 digital experiences that are fast, accessible, visually
                                 appealing and responsive.

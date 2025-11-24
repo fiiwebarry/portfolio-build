@@ -115,10 +115,10 @@ const Projects = () => {
                   <div key={id} className='lg:w-[412px] lg:mt-0 mt-5  lg:h-[582px] bg-[#ffff] transition-transform duration-300 lg:hover:scale-110  hover:scale-105  shadow-lg rounded-xl lg:p-4 p-2'>
                     <div className=" lg:p-3 p-2 ">
                       <div className=''>
-                        <img className="rounded   md:w-[700px]" src={image} alt="" />
+                        <img className="rounded md:w-[700px]" src={image} alt="" />
                       </div>
                       <div className="">
-                        <p className="lg:p-2 p-2  font-garamond lg:text-[18px]">
+                        <p className="lg:p-2 p-2 font-garamond lg:text-[18px]">
                           {content}
                         </p>
                         <div className="flex p-2 gap-4">
@@ -139,7 +139,6 @@ const Projects = () => {
               )
             })}
             <div className="swiper-pagination ">
-
             </div>
           </div>
           <div className="swiper-pagination ">
