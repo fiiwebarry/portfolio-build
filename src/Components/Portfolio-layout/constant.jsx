@@ -1,7 +1,6 @@
 import person from "/src/Assets/images/lenever.jpg"
 import icon from "/src/Assets/images/Yuewu.jpg"
-import icon2 from "/src/Assets/images/ubong.jpg"
-import countries from "/src/Assets/images/Rest-Countries.png";
+import icon2 from "/src/Assets/images/ubong.jpg"   
 import limiflex from "/src/Assets/images/limitflex.jpg";
 import onecart from "/src/Assets/images/onecartimage.png";
 import RisePath from "/src/Assets/images/RisePath.png";
@@ -28,9 +27,8 @@ export const projectData = [
     { id: 2, image: tjeg, githubUrl: "https://github.com/fiiwebarry", siteUrl: "https://www.tjeg.ng", content: "Tjeg is a financial app designed to help users manage their budgets effectively. As a front end developer, I collaborated closely with senior developers to ensure a smooth, responsive, and intuitive user experience. I helped enhance the app’s functionality which simplifies personal finance management for users. ", },
     { id: 3, image: Diacura, githubUrl: "https://github.com/fiiwebarry", siteUrl: "https://diacura-med.netlify.app/", content: "Diacura app is a personalized digital companion designed to empower and support diabetic patients on a diabetes management journey. Diacura app is a user-friendly interface with comprehensive features that enables a patient track progress, set goals, and make informed decisions about your health.", },
     { id: 4, image: RisePath, githubUrl: "https://github.com/GrittyBee-Tech/Rise-Path", content: "The RisePath serves as a game-changer in the realm of HR education by providing a centralized platform that addresses the unique learning needs of professionals in the field. With its curated content, personalized approach, interactive features, and collaborative community.", siteUrl: "https://mellow-longma-801e80.netlify.app", },
-    { id: 5, image: countries, githubUrl: "https://github.com/fiiwebarry/Rest-countries", siteUrl: "https://fiiwebarry.github.io/Rest-countries/", content: "REST Countries API  used to create an interactive web application that provides detailed information about countries around the world. Users will be able to search for countries, view essential data such as population, languages, as well as view their location on an interactive map." },
-    { id: 6, image: trench, githubUrl: "https://github.com/fiiwebarry", siteUrl: "https://trench-housing.onrender.com", content: "Trench Housing is a real estate platform designed to connect property agents with house buyers. The website ensures a seamless, interactive, and visually appealing user experience. The platform is optimized, allowing users to easily browse listings and connect with agents. ", },
-    { id: 7, image: limiflex, githubUrl: "https://fiiwebarry-admin@bitbucket.org/limitflex/website.git", siteUrl: "https://www.limitflex.com/", content: "Limitflex is a digital connectivity app built to provide users with seamless global eSIM access. As a front-end developer, I worked closely with the team to deliver a clean, responsive, and intuitive interface that make activating and managing eSIM plans simple and hassle-free for users around the world.", },
+    { id: 5, image: trench, githubUrl: "https://github.com/fiiwebarry", siteUrl: "https://trench-housing.onrender.com", content: "Trench Housing is a real estate platform designed to connect property agents with house buyers. The website ensures a seamless, interactive, and visually appealing user experience. The platform is optimized, allowing users to easily browse listings and connect with agents. ", },
+    { id: 6, image: limiflex, githubUrl: "https://fiiwebarry-admin@bitbucket.org/limitflex/website.git", siteUrl: "https://www.limitflex.com/", content: "Limitflex is a digital connectivity app built to provide users with seamless global eSIM access. As a front-end developer, I worked closely with the team to deliver a clean, responsive, and intuitive interface that make activating and managing eSIM plans simple and hassle-free for users around the world.", },
 ];
 
 export const projectData2 = [
