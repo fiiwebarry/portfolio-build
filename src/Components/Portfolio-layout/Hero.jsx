@@ -40,7 +40,7 @@ const Hero = () => {
                             <button className=" grid grid-flow-col w-max items-center text-white bg-Hover-tint gap-3 hover:bg-Hover-tint hover:text-white rounded-md shadow-md border font-bold border-[#F9FAFB]   px-10  p-[5px] text-[15px] lg:text-[20px] font-open-sans">
                                 <SiGooglemeet />
                                 <CalendlyButton/></button>
-                            <div className='bg-[#1F2937]  hover:bg-indigo-950 hover:text-white  lg:mt-1 flex gap-2 rounded-md lg:p-[10px]  p-[7px] shadow-md font-open-sans  text-[18px] lg:text-[22px] font-semibold text-[#F9FAFB]'>
+                            <div className='bg-[#1F2937]  hover:bg-indigo-950 hover:text-white  lg:mt-1 flex gap-2 rounded-md  px-5   py-3 shadow-md font-open-sans  text-[18px] lg:text-[22px] font-semibold text-[#F9FAFB]'>
                                 <a className="mt-1 lg:text-[20px] text-[15px]" href={resume} download=" "> Download Resume </a>
                                 <span className="mt-2 lg:text-[20px] text-[15px] "><BiSolidFolderOpen /></span>
                             </div>
