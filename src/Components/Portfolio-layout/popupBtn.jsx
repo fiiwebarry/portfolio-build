@@ -7,7 +7,7 @@ export default function CalendlyButton() {
     <PopupButton
       url="https://calendly.com/fiiwebarry"
       rootElement={document.body}
-      text="Book A Call"
+      text="Schedule A Call"
     />
   );
 }
