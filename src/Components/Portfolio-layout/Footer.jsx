@@ -1,5 +1,5 @@
 
-import twitter from "/src/Assets/Icons/twitterIcon.png";
+import twitter from "/src/Assets/Icons/twitter.png";
 import github from "/src/Assets/Icons/gittyhub.png";
 import linkedin from "/src/Assets/Icons/linkedin-icon.png"
 
@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <div className="flex gap-4 justify-center">
                 <a href="https://github.com/fiiwebarry"><img className="w-[50px]" src={github} /> </a>
-                <a href=""><img className="w-[50px]" src={twitter} /></a>
+                <a className="lg:w-[35px] mt-1 lg:h-[35px]  w-[35px] h-[35px]" href="https://twitter.com/FIIWEBARRY9"><img className="w-[50px]" src={twitter} /></a>
                 <a href="https://www.linkedin.com/in/barisanem-fiiwe-08659992/"><img className="w-[50px]" src={linkedin} /></a>
             </div>
 

@@ -1,4 +1,4 @@
-import twitter from "/src/Assets/Icons/twitterIcon.png";
+import twitter from "/src/Assets/Icons/twitter.png";
 import github from "/src/Assets/Icons/gittyhub.png";
 import linkedin from "/src/Assets/Icons/linkedin-icon.png"
 import Bulletpoint from "/src/Assets/Icons/Bullet.svg";
@@ -37,13 +37,13 @@ const Hero = () => {
                             </p>
                         </div>
                         <div className="flex gap-[15px] lg:mt-4 mt-4 ">
-                            <button className=" grid grid-flow-col w-max items-center text-white bg-Hover-tint gap-3 hover:bg-Hover-tint hover:text-white rounded-md shadow-md border font-bold border-[#F9FAFB]   px-10  p-[5px] text-[15px] lg:text-[20px] font-open-sans">
+                            <button className=" grid grid-flow-col w-max items-center text-white bg-Hover-tint gap-3 hover:bg-Hover-tint hover:text-white rounded-md shadow-md border font-bold border-[#F9FAFB]   px-10 text-[15px] lg:text-[20px] font-open-sans">
                                 <SiGooglemeet />
                                 <CalendlyButton/></button>
-                            <div className='bg-[#1F2937]  hover:bg-indigo-950 hover:text-white  lg:mt-1 flex gap-2 rounded-md  px-5   py-3 shadow-md font-open-sans  text-[18px] lg:text-[22px] font-semibold text-[#F9FAFB]'>
+                            <button className='bg-[#1F2937]  hover:bg-indigo-950 hover:text-white  lg:mt-1 flex gap-2 rounded-md  px-5   py-3 shadow-md font-open-sans  text-[18px] lg:text-[22px] font-semibold text-[#F9FAFB]'>
                                 <a className="mt-1 lg:text-[20px] text-[15px]" href={resume} download=" "> Download Resume </a>
                                 <span className="mt-2 lg:text-[20px] text-[15px] "><BiSolidFolderOpen /></span>
-                            </div>
+                            </button>
                         </div>
                         <div className="flex lg:mt-8 mt-7 gap-2">
                             <img className="bullet-point" src={Bulletpoint} />
@@ -51,7 +51,7 @@ const Hero = () => {
                         </div>
                         <div className="flex lg:mt-7 mt-3 lg:gap-5 gap-2">
                             <a className="lg:w-[45px] lg:h-[45px]  w-[35px] h-[35px]" href="https://github.com/fiiwebarry"><img className="github" src={github} /> </a>
-                            <a className="lg:w-[45px] lg:h-[45px]  w-[35px] h-[35px]" href=""><img className="twitter-icon" src={twitter} /></a>
+                            <a className="lg:w-[35px] mt-1 lg:h-[35px]  w-[35px] h-[35px]" href="https://twitter.com/FIIWEBARRY9"><img className="twitter-icon" src={twitter} /></a>
                             <a className="lg:w-[45px] lg:h-[45px]  w-[35px] h-[35px]" href="https://www.linkedin.com/in/barisanem-fiiwe-08659992/"><img className="linkedin-icon" src={linkedin} /></a>
                         </div>
                     </div>
