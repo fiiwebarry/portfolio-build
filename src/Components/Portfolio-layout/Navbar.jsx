@@ -29,7 +29,7 @@ const Navbar = () => {
                             <div className="">
                                 <ul className=" lg:flex md:flex hidden  hover:text-Hover-tint  lg:mt-0 md:mt-5  lg:p-5 justify-center lg:gap-[90px] md:gap-[35px] font-open-sans lg:text-[20px] md:text-[15px] font-semibold text-[#1F2937]">
                                     <li><a href="#About">About</a></li>
-                                    <li><a href="#project">Project</a></li>
+                                    <li><a href="#project">Projects</a></li>
                                     <li><a href="#testimonial">Testimonial</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                 </ul>
