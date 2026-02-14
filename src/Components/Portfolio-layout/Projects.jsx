@@ -10,7 +10,8 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+import { EffectCoverflow, Pagination, Navigation, Autoplay } from 'swiper/modules';
+
 import "./slider.css"
 import "./slide.css"
 
@@ -35,24 +36,27 @@ const Projects = () => {
         <p className="flex justify-center  mx-auto lg:text-left text-center text-[20px] lg:text-[24px] font-georgia font-semibold lg:mt-[30px] mt-[20px]">Some of the noteworthy projects i have built</p>
         <div className=" lg:w-full  w-[100%] lg:pt-[60px]">
           <div className='lg:w-[180px] w-[160px] pb-3'>
-            <p className=' flex  lg:mt-0 mt-6 lg:justify-normal justify-center lg:mx-0 mx-auto border-b-2  py-2 border-blue-800 font-semibold font-georgia text-[#335CA6] lg:text-[18px]'>MINI-PROJECTS</p>
+            <p className=' flex  lg:mt-0 mt-6 lg:justify-normal justify-center lg:mx-0 mx-auto border-b-2  py-2 border-blue-800 font-semibold font-georgia text-[#335CA6] lg:text-[18px]'>KEY-PROJECTS</p>
           </div>
           <Swiper
-            grabCursor={true}
-            centeredSlides={true}
-            loop={true}
-            slidesPerView={'auto'}
-            pagination={{ el: '.swiper-pagination', clickable: true }}
-            navigation={{
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-              clickable: true,
-            }}
-            modules={[EffectCoverflow, Pagination, Navigation]}
-            className="unique"
+          grabCursor={true}
+          centeredSlides={true}
+          loop={true}
+          slidesPerView={'auto'}
+          autoplay={{
+          delay: 3000, 
+          disableOnInteraction: false,
+        }}
+          pagination={{ el: '.swiper-pagination', clickable: true }}
+          navigation={{
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            clickable: true,
+          }}
+          modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
+          className="unique"
           >
-            <div className="lg:flex lg:mt-0 mt-2 lg:flex-row md:flex md:flex-row  gap-8  flex flex-col lg:flex-nowrap  md:flex-wrap lg:gap-[80px] md:gap-[10px]">
-              {projectData.map((project) => {
+             {projectData.map((project) => {
                 const { id, image, githubUrl, siteUrl, content } = project;
                 return (
                   <SwiperSlide key={id}>
@@ -82,33 +86,38 @@ const Projects = () => {
                   </SwiperSlide >
                 )
               })}
+            {/* <div className="lg:flex lg:mt-0 mt-2 lg:flex-row md:flex md:flex-row  gap-8  flex flex-col lg:flex-nowrap  md:flex-wrap lg:gap-[80px] md:gap-[10px]">
+             
               <div className="swiper-pagination ">
 
               </div>
-            </div>
+            </div> */}
             <div className="swiper-pagination ">
-            </div>
+            </div> 
           </Swiper>
         </div>
-        <div className='lg:w-[180px] lg:mt-0 mt-5 w-[180px] pb-3'>
+        {/* <div className='lg:w-[180px] lg:mt-0 mt-5 w-[180px] pb-3'>
           <p className='flex lg:justify-normal justify-center lg:mx-0 mx-auto border-b-2  py-2 border-blue-800 font-semibold font-georgia text-[#335CA6] lg:text-[18px]'>KEY-PROJECTS</p>
-        </div>
+        </div> */}
         <Swiper
           grabCursor={true}
           centeredSlides={true}
           loop={true}
           slidesPerView={'auto'}
+          autoplay={{
+          delay: 3000, 
+          disableOnInteraction: false,
+        }}
           pagination={{ el: '.swiper-pagination', clickable: true }}
           navigation={{
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
             clickable: true,
           }}
-          modules={[EffectCoverflow, Pagination, Navigation]}
+          modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
           className="unique"
         >
-          <div className="lg:flex lg:mt-0 mt-5 lg:flex-row md:flex md:flex-row  gap-8  flex flex-col lg:flex-nowrap  md:flex-wrap lg:gap-[80px] md:gap-[10px]">
-            {projectData2.map((project) => {
+          {projectData2.map((project) => {
               const { id, image, githubUrl, siteUrl, content } = project;
               return (
                 <SwiperSlide key={id}>
@@ -138,10 +147,12 @@ const Projects = () => {
                 </SwiperSlide >
               )
             })}
+          {/* <div className="lg:flex lg:mt-0 mt-5 lg:flex-row md:flex md:flex-row  gap-8  flex flex-col lg:flex-nowrap  md:flex-wrap lg:gap-[80px] md:gap-[10px]">
+            
             <div className="swiper-pagination ">
             </div>
             
-          </div>
+          </div> */}
           <div className="swiper-pagination ">
           </div>
         </Swiper>
