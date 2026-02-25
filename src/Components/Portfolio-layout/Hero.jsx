@@ -26,9 +26,9 @@ const Hero = () => {
                     <div className=" mt-[40px] lg:w-[600px] ">
                         <div className="flex gap-4">
                             <h2 className="lg:text-[56px] md:text-[36px] text-[25px] font-bold text-[#030712] font-open-sans lg:mt-[50px] md:mt-[50px]">Hi, I’m Fiiwe Barry</h2>
-                            <span className="lg:text-[58px] text-[30px]  md:mt-[50px]"><FaHandsClapping /></span>
+                            <span className="lg:text-[58px] text-[30px] animate-pulse  md:mt-[50px]"><FaHandsClapping /></span>
                         </div>
-                        <div className="font-garamond lg:text-[23px] md:text-[18px] text-[20px]  lg:mt-0 mt-2 lg:w-[713px] md:w-[400px] lg:h-[132px] text-[#030712] font-normal">
+                        <div className="font-garamond lg:text-2xl md:text-xl text-xl  lg:mt-0 mt-2 lg:w-[713px] md:w-[400px] lg:h-[132px] text-[#030712] font-normal">
                             <p className="lg:mt-4">
                                 I am a Frontend Web and Mobile developer with a
                                 focus on creating and occasionally designing exceptional
@@ -36,17 +36,17 @@ const Hero = () => {
                                 appealing and responsive.
                             </p>
                         </div>
-                        <div className="grid grid-flow-col gap-[15px] lg:mt-4 mt-4 ">
+                        <div className="grid grid-flow-col gap-4 lg:mt-4 mt-4 ">
                             <button className=" grid grid-flow-col w-max items-center text-white bg-Hover-tint gap-3 hover:bg-Hover-tint hover:text-white rounded-md shadow-md border font-bold border-[#F9FAFB]  px-5 lg:px-10 text-xs lg:text-[20px] font-open-sans">
                                 <SiGooglemeet />
                                 <CalendlyButton/></button>
-                            <button className='bg-[#1F2937]  hover:bg-indigo-950 hover:text-white  lg:mt-1 flex gap-2 rounded-md  px-5   py-3 shadow-md font-open-sans  text-xs lg:text-[22px] font-semibold text-[#F9FAFB]'>
+                            <button className='bg-[#1F2937]  hover:bg-indigo-950 hover:text-white justify-center  lg:mt-1 flex gap-2  lg:gap-5  items-center rounded-md  px-5   py-3 shadow-md font-open-sans  text-xs lg:text-[22px] font-semibold text-[#F9FAFB]'>
                                 <a className="mt-1 lg:text-[20px] text-xs" href={resume} download=" "> Download Resume </a>
-                                <span className="mt-2 lg:text-[20px] text-xs "><BiSolidFolderOpen /></span>
+                                <span className="mt-2 lg:text-[25px] text-xs "><BiSolidFolderOpen /></span>
                             </button>
                         </div>
                         <div className="flex lg:mt-8 mt-7 gap-2">
-                            <img className="bullet-point" src={Bulletpoint} />
+                            <img className="bullet-point animate-pulse" src={Bulletpoint} />
                             <p className="lg:text-[20px]  text-[18px] font-open-sans font-bold">Available for new projects</p>
                         </div>
                         <div className="flex lg:mt-7 mt-3 lg:gap-5 gap-2">
@@ -56,7 +56,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="lg:mt-[70px] lg:w-[600px] md:mt-[100px] mt-[90px] ">
-                        <img className=" rounded-full shadow-lg border border-[#F9FAFB] lg:w-[500px]" data-aos="zoom-in"
+                        <img className="  rounded-full shadow-lg border border-[#F9FAFB] lg:w-[500px]" data-aos="zoom-in"
                             data-aos-easing="linear"
                             data-aos-duration="1500" src={Img} />
                     </div>

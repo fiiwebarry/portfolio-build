@@ -21,7 +21,7 @@ const Navbar = () => {
                     <div className="flex  justify-between  md:gap-[140px]">
                         <a href="#" className="flex mt-2 hover:text-Hover-tint ">
                             <h1 className="font-georgia  lg:text-[40px] text-[30px]">FIIWE</h1>
-                            <span className="ml-[10px] text-[40px] text-[#000]"><GiBee /></span>
+                            <span className="ml-[10px] text-[40px] text-[#000] "><GiBee /></span>
 
                         </a>
 

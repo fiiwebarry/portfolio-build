@@ -28,12 +28,12 @@ const Testimonial = () => {
               <>
                 <div className="testimony" key={id}>
                   <div className="lg:w-[394px] lg:h-[479px]  hover:bg-Hover-tint hover:text-white bg-[#F9FAFB] p-4 rounded-2xl shadow-lg" data-aos="flip-right">
-                    <img className="w-[100px] h-[100px] rounded-full flex justify-center mx-auto" src={image} alt="" />
-                    <p className="font-normal font-garamond lg:text-[19px] text-[17px] mt-2">
+                    <img className="w-24 h-24 rounded-full flex justify-center mx-auto" src={image} alt="" />
+                    <p className="font-normal font-garamond lg:text-xl text-lg mt-2">
                       {text}
                     </p>
-                    <span className="flex mt-2 justify-center mx-auto font-bold text-[18px]">{name}</span>
-                    <span className="flex mt-2 justify-center mx-auto font-normal text-[15px] lg:text-[18px]">{Role}</span>
+                    <span className="flex mt-2 justify-center mx-auto font-bold text-lg">{name}</span>
+                    <span className="flex mt-2 justify-center mx-auto font-normal text-sm lg:text-lg">{Role}</span>
                   </div>
                 </div>
               </>
