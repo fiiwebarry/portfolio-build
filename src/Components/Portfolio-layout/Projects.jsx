@@ -20,8 +20,6 @@ import "./slide.css"
 import { projectData2 } from './constant';
 
 
-
-
 const Projects = () => {
   const clickHandler = (url) => {
     window.location.href = url;
