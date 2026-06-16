@@ -13,7 +13,6 @@ const MobileNavbar = ({ SetIsOpen }) => {
                     <span className="ml-[10px] text-[30px] text-[#000]"><GiBee /></span>
 
                 </div>
-
                 <button className="text-[30px]" onClick={() => SetIsOpen(false)} ><AiFillCloseCircle /></button>
             </div>
             <ul className=" flex flex-col mx-auto text-center justify-center p-4">

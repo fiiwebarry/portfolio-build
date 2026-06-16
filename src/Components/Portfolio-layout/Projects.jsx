@@ -1,23 +1,18 @@
 
 import { AiFillGithub } from 'react-icons/ai';
-import { projectData } from "/src/Components/Portfolio-layout/constant";
-// import { projectData2 } from "/src/Components/Portfolio-layout/constant";
+import { projectData, projectData2 } from "/src/Components/Portfolio-layout/constant";
 import github from "/src/Assets/Icons/gittyhub.png";
 import { GitHubCalendar } from "react-github-calendar";
 import { GiLaptop } from 'react-icons/gi';
 import { TbSitemap } from "react-icons/tb";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import slider from "/src/Assets/images/slider.png"
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from 'swiper/modules';
-
-
 import "./slider.css"
 import "./slide.css"
-import { projectData2 } from './constant';
 
 
 const Projects = () => {
