@@ -33,8 +33,6 @@ export const projectData = [
     { id: 8, image: uess, githubUrl: "https://github.com/fiiwebarry", siteUrl: "https://uess.abenolfoundation.org/", content: "The Undergraduate Empowerment and Sensitization Scheme  application (UESS) is a transformative platform designed to bridge the gap between academia and industry, empowering Nigerian undergraduates with the skills, knowledge, and mentorship they need to thrive.", },
     { id: 9, image: ihealth, githubUrl: "https://github.com/fiiwebarry", siteUrl: "https://www.ihealthwellness.org/", content: " iHealth and Wellness Foundation is a project that improves patient outcomes for complex diseases through an online medical and wellness care platform. As a frontend developer i worked basically with React.js and collaborated massively with backend developers and product designers ", },
 ];
-    
-
 
 export const projectData2 = [
     { id: 1, image: unizoon, githubUrl: "https://github.com/fiiwebarry", siteUrl: "https://unizonn-v2-frontend.onrender.com/", content: " Unizoon is an academic app designed to help students and lecturers connect effortlessly. As a front-end developer, I built a smooth, responsive, and user-friendly interface that allow users to post articles, read, like, and share content, making academic engagement simpler and more interactive. ", },
