@@ -26,7 +26,7 @@ const Batch = () => {
                 <p className="lg:text-[25px] font-georgia font-bold mt-4"> My Skill Set  </p>
                 <span className="mt-4 "><BsRobot className="text-[32px]" /></span>
             </div>
-            <div className="  mt-[30px] lg:mt-[60px] lg:px-8  justify-center mx-auto lg:flex lg:justify-between gap-[16px] md:gap-[60px] md:flex flex lg:flex-row  md:flex-row flex-wrap lg:w-3/5 md:w-1/2 w-1/2" >
+            <div className="  mt-[30px] lg:mt-[60px] lg:px-8  justify-center mx-auto lg:flex lg:justify-between gap-[16px] md:gap-[60px] md:flex flex lg:flex-row  md:flex-row flex-wrap lg:w-8/12 md:w-1/2 w-1/2" >
                 <div className="flex-column">
                     <div>
                         <img src={icon} alt="" data-aos="zoom-in-up" />
